@@ -1,0 +1,64 @@
+body{
+    background-color: aquamarine;
+    margin-top: 0px;
+    height: 100%;
+}
+
+.top-bar{
+    position: fixed;
+    display: block;
+    background-color: white;
+    width: 100%;
+    height: 10%;
+    left: 0px;
+    top: 0px;
+}
+.main-box{
+    display: block;
+    background-color: white;
+    margin: 200px;
+    margin-top: 10%;
+}
+
+.syd-image{
+    padding: 15px;
+    float: left;
+}
+
+.links{
+    float: right;
+    position: relative;
+    display: block;
+    width: 30%;
+    height: 100%;
+}
+
+.link-about{
+    position: absolute;
+    top: 50%;
+}
+
+.link-portfolio{
+    left: 23%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+}
+
+.link-contact{
+    left: 50%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+}
+
+.name-box{
+    position: relative;
+    width: 30%;
+    float: left;
+    left: 20%;
+    background-color: lightgreen;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,131 @@
+body{
+    margin-top: 0px;
+    height: 100%;
+    background-image: url(../images/congruent_pentagon.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    padding: 5px;
+}
+.top-bar{
+    position: fixed;
+    display: block;
+    background-color: #ffffff;
+    width: 100%;
+    height: 15%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    border-style: solid;
+    border-color:#cccccc;
+    border-width: 0px;
+    border-bottom-width: 3px;
+}
+.main-box{
+    width: 960px;
+    display: block;
+    background-color: #ffffff;
+    margin: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color:#dddddd;
+    border-width: 3px;
+}
+
+.syd-image{
+    padding: 15px;
+    float: left;
+}
+
+.links{
+    float: right;
+    position: relative;
+    display: block;
+    width: 30%;
+    height: 100%;
+}
+
+.link-about{
+    position: absolute;
+    top: 28%;
+    background-color: white;
+    width: 18%;
+    height: 35%;
+    text-align: center;
+    border-style: solid;
+    border-top-width: 5px;
+    border-color: white;
+}
+
+.link-portfolio{
+    left: 25%;
+    margin: auto;
+    position: absolute;
+    top: 28%;
+    background-color: white;
+    width: 18%;
+    height: 35%;
+    text-align: center;
+    border-style: solid;
+    border-top-width: 5px;
+    border-color: white;
+}
+
+.link-contact{
+    left: 50%;
+    margin: auto;
+    position: absolute;
+    top: 28%;
+    background-color: white;
+    width: 18%;
+    height: 35%;
+    text-align: center;
+    border-style: solid;
+    border-top-width: 5px;
+    border-color: white;
+}
+
+.name-box{
+    position: relative;
+    bottom: -1px;
+    width: 30%;
+    float: left;
+    left: 20%;
+    background-color: #4aaaa5;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+.about{
+    color: #4aaaa5; 
+}
+
+.foot{
+    position: relative;
+    height: 30px;
+    width: 101.5%;
+    background-color: #666666;
+    border-style: solid;
+    border-color:#4aaaa5;
+    border-width: 0px;
+    border-top-width: 5px;
+    color: white;
+    bottom: -10px;
+    left: -10px;
+    right: -11px;
+}
+
+.cr{
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+}
